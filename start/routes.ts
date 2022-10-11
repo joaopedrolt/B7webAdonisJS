@@ -1,0 +1,4 @@
+import Route from '@ioc:Adonis/Core/Route'
+import './routes/api.routes' /* Pode-se carregar outro arquivo router em adonisrc.json */
+
+Route.get('/qs', 'QuerryStringsController.qs')
